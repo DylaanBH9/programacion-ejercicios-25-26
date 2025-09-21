@@ -14,4 +14,10 @@ Inicio
 	   Si (x % y == 0)
 	      z = z + 1
 	   y = y + 1
-	
+
+	//Paso 4: Comprobamos si el numero de divisores es igual a 2 y si lo es que es primo
+	Si (z == 2)
+	    Escribe "El numero "x" es primo"
+	Si no
+		Escribe "El numero "x" no es primo"  
+Fin
