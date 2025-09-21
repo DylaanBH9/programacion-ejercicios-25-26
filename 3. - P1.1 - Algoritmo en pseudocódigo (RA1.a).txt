@@ -6,3 +6,12 @@ Inicio
 	//Paso 2: comprobar que el numero "x" sea mayor o distinto de 1
 	Si (x <= 1)
 	   Escribe "El numero "x" no es primo"
+	
+	//Paso 3: creamos variable "y" para ir diviendo al numero entre todos lo numeros del 1 hasta "x" y si el resto es 0 es que tiene un divisor y ademas creamos otra variable "z" para guardar el numero total de divisores
+	y = 1
+	z = 0
+	Mientras (y != x)
+	   Si (x % y == 0)
+	      z = z + 1
+	   y = y + 1
+	
