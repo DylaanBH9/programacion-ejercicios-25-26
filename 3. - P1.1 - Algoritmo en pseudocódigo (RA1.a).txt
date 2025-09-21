@@ -2,3 +2,7 @@ Inicio
 	//Paso 1: preguntar por el numero y guardarlo en la variable "x"
 	Escribe "¿Qué  numero quieres saber si es primo?"
 	Leer numero y guardarlo en la variable x
+	
+	//Paso 2: comprobar que el numero "x" sea mayor o distinto de 1
+	Si (x <= 1)
+	   Escribe "El numero "x" no es primo"
