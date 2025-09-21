@@ -1,0 +1,4 @@
+Inicio
+	//Paso 1: preguntar por el numero y guardarlo en la variable "x"
+	Escribe "¿Qué  numero quieres saber si es primo?"
+	Leer numero y guardarlo en la variable x
