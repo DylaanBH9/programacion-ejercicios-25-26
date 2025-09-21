@@ -2,3 +2,10 @@ Inicio
 	//Paso 1 preguntar por el numero y guardarlo en la variable "x"
 	Escribe "¿De qué numero quieres saber su tabla de multiplicacion del 1 al 10?"
 	Leer numero y guardarlo en la variable x
+
+	//Paso 2 multiplicar la variable "x" por los numeros del 1 al 10 con la variable "y" y mostrar en pantalla
+	y = 1
+	Mientras (y <= 10)
+	   Escribe "x * y = (x * y)"
+	   y = y + 1
+Fin
