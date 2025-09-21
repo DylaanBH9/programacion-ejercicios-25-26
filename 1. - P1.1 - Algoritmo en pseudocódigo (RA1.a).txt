@@ -2,3 +2,11 @@ Inicio
 	//Paso 1 preguntar por el numero y guardarlo
 	Escribe "¿Qué numero quieres saber si es par o impar?"
 	Leer numero y guardarlo en la variable X
+	
+	//Paso 2 dividir el numero entre 2 y comprbar si el numero es igual a 0 (par) o si es distinto de 0 (impar) y mostrarlo en pantalla
+	Division X % 2
+	   Si el resto de la division == 0
+	       Escribe "El numero "X" es par"
+	   Si no
+	       Escribe "El numero "X" es impar"
+Fin
