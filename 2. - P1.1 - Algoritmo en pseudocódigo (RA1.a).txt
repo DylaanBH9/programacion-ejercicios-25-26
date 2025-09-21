@@ -1,0 +1,4 @@
+Inicio
+	//Paso 1 preguntar por el numero y guardarlo en la variable "x"
+	Escribe "¿De qué numero quieres saber su tabla de multiplicacion del 1 al 10?"
+	Leer numero y guardarlo en la variable x
