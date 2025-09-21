@@ -1,0 +1,4 @@
+Inicio
+	//Paso 1 preguntar por el numero y guardarlo
+	Escribe "¿Qué numero quieres saber si es par o impar?"
+	Leer numero y guardarlo en la variable X
