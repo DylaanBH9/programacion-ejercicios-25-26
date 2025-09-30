@@ -1,0 +1,13 @@
+Inicio
+	//Paso 1 Pedir el nombre del usuario y el numero de veces que lo quiere repetir
+	Escribe "¿Cual es tu nombre?"
+	Leer nombre
+	Escribe "¿Cuantas veces quieres repetirlo?"
+	Leer x
+	
+	//Paso 2 Escribir x veces el nombre en pantalla y con la variable y contamos cuantas veces se ha escrito
+	y = 0
+	Mientras (y != x)
+		Escribe "(nombre)"
+		y = y + 1
+Fin

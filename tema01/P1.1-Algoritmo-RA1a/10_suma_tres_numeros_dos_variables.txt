@@ -1,0 +1,21 @@
+Inicio
+	//Paso 1 Creamos la varibale suma_total y preguntamos por el numero
+	num = 0
+	Escribe "¿Cual es el primer numero que quieres sumar?"
+	Leer suma_total
+	
+	//Paso 2 Creamos la varibale num2 y preguntamos por el numero
+	y sumamos ambos y lo guardamos en num1
+	Escribe "¿Cual es el segundo numero que quieres sumar"
+	Leer num2
+	suma_total = suma_total + num2
+	
+	//Paso 3 Peguntamos por el numero por el ultimo numero, sumamos 
+	ambos y lo guardamos en num1 y escribimos el resultado
+	Escribe "¿Cual es el tercer numero que quieres sumar"
+	Leer num2
+	suma_total = suma_total + num2
+	Ecribe "La suma de los tres numeros es (suma_total)"
+Fin
+
+	

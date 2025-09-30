@@ -1,0 +1,14 @@
+Inicio
+	//Paso 1 Preguntar por las variables num1, num2 y num3
+	Escribe "¿Cual es el primer numero que quieres sumar?"
+	Leer num1
+	Escribe "¿Cual es el segundo numero que quieres sumar"
+	Leer num2
+	Escribe "¿Cual es el tercer numero que quieres sumar"
+	Leer num3
+	
+	//Paso 2 Crear la variable suma_total y escribir la suma de las 
+	tres variables
+	suma_total = num1 + num2 + num3
+	Escribe "La suma de los tres numeros es (suma_total)"
+Fin

@@ -1,0 +1,13 @@
+Inicio
+    //Paso 1 Crear variables Horas y coste_por_hora y ademas preguntar por el numero de horas trabajadas y el coste por hora
+    Horas = 0
+    coste_por_hora = 0
+    Escribe "Cuantas horas has trabajado?"
+    Leer Horas
+    Escribe "¿Cuanto te pagan a la hora?"
+    Leer coste_por_hora
+
+    //Paso 2 Escribir el resultado de multiplicar Hora por coste_por_hora
+    Escribe "Tiene que cobrar (Hora * coste_por_hora) si ha trabajado (Hora) y cobra (coste_por_hora)"
+Fin
+    

@@ -1,0 +1,19 @@
+Inicio
+	//Paso 1 Crear variable barras_no_frescas y preguntar por el numero 
+	de barras_no_frescas
+	barras_no_frescas = 0
+	Escribe "¿Cuantas barras no frescas quieres comprar?"
+	Leer barras_no_frescas
+	
+	//Paso 2 Crear variables precio_habitual, descuento y coste_total
+	y calcular el coste_total
+	precio_habitual = (barras_no_frescas * 3.49)
+	descuento = 60
+	coste_total = (precio_habitual * (descuento % 100))
+	
+	//Paso 3 Escribir el precio habitual de las barras, el desuento aplicado y
+	el coste total.
+	Escribe "El precio habitual por (barras_no_frescas) seria (precio_habitual)€"
+	Escribe "Pero aplicando el descuento del (descuento)%"
+	Escribe "El coste total es de (coste_total)€"
+Fin

@@ -1,0 +1,13 @@
+Inicio
+	//Paso 1 Crear variablles peso y altura preguntar por ellas
+	peso = 0
+	altura = 0
+	Escribe "¿Cuanto pesas?"
+	Leer peso
+	Escribe "¿Cuanto mides?"
+	Leer altura
+
+	//Paso 2 Crear variables IMC y calcular el indice de masa corporal 
+	IMC = peso % altura
+	Escribe "Si indice de masa corporal es (IMC)"
+Fin

@@ -1,0 +1,15 @@
+Inicio
+	//Paso 1 Crerar variables n_payasos y n_muñecas y preguntar por el 
+	numero de payasos y el numero de muñecas del pedido
+	n_payasos = 0
+	n_muñecas = 0
+	Escribe "¿Cuantos payasos has pedido?"
+	Leer n_payasos
+	Escribe "¿Cuantos mueñecas has pedido?"
+	Leer n_muñecas
+	
+	//Paso 2 Escribir el resultado de sumar y multiplicar el numero 
+	de pedidos de ambos por su peso
+	Escribe "El peso total del pedido es ((n_payasos * 112) + (n_muñecas * 75))g"
+Fin
+

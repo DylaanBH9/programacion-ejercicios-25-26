@@ -1,0 +1,16 @@
+Inicio
+	//Paso 1 Creat variable capital_inicial y preguntar por la capital inicial
+	capital_inicial = 0
+	Escribe "¿Cual es tu capital inicial?"
+	Leer capital_inicial
+	
+	//Paso 2 Crear variables saldo1, saldo2 y saldo3 y escribir por año
+	el resultado del saldo tras un 4% de interés compuesto anual de los
+	proximos 3 años
+	saldo1 = capital_inicial * (1 + 0.04)
+	saldo2 = sueldo1 * (1 + 0.04)
+	saldo3 = sueldo2 * (1 + 0.04)
+	Escribe "El sueldo tras un año de 4% de interés compuesto anual es (saldo1)"
+	Escribe "El sueldo tras dos años de 4% de interés compuesto anual es (saldo2)"
+	Escribe "El sueldo tras tres años de 4% de interés compuesto anual es (saldo3)"
+Fin

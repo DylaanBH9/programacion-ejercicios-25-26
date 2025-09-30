@@ -1,0 +1,9 @@
+Inicio
+    //Paso 1 crear variable nombre y preguntar por el nombre del usuario
+    nombre = ""
+    Escribe "¿Cual es tu nombre?"
+    Lee nombre
+
+    //Paso 2 Dar bienvenida al usuario con el nombre de la variable nombre
+    Escribe "¡Bienvenido, (nombre)!"
+Fin

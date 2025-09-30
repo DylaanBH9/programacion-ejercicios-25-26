@@ -1,0 +1,15 @@
+Inico
+	//Paso 1 Crear variable precio_final y preguntar por el precio final
+	precio_final = 0
+	Escribe "¿Cual es el precio final de producto?"
+	Leer precio_final
+	
+	//Paso 2 Crear variable precio_sin_iva y iva_pagado y calcular los 
+	resultados del precio sin iva y del iva pagado
+	precio_sin_iva = ((precio_final) % 1.10)
+	iva_pagado = (precio_final - precio_sin_iva
+	
+	//Paso 3  Escribir los resultados del precio_sin_iva y iva_pagado
+	Escribe "El precio sin iva del producto es de (precio_sin_iva)€"
+	Escribe "Y pago un total de (iva_pagado)€"
+Fin

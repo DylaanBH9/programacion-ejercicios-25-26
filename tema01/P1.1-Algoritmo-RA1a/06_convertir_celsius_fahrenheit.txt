@@ -1,0 +1,9 @@
+Inicio
+	//Paso 1 Preguntar por la temperatura en Celsius
+	Escribe "¿Que temperatura en Celsius dese saber en Fahrenheit?"
+	Leeer X
+	
+	//Paso 2 
+	Escribe "La temperatura en Fahrenheit es de ( 	
+	(X × 9 / 5) + 32 )"
+Fin

@@ -1,0 +1,14 @@
+Inicio
+	//Paso 1 Establecer variables "precio_sin_iva" y "iva" y preguntar 
+	por el precio del producto y el porcentaje de iva
+	precio_sin_iva 0
+	iva = 0
+	Escribe "¿Cual es el precio del producto sin iva?"
+	Leer precio_sin_iva
+	Escribe "¿Cual es el porcentaje de iva?"
+	
+	//Paso 2 Calcular el precio total del producto y escribir el 
+	resultado
+	precio_final = ((precio_sin_iva * (iva%100)) + precio_sin_iva)
+	Escribe "El precio total de producto es (precio_sin_iva)€"
+Fin
