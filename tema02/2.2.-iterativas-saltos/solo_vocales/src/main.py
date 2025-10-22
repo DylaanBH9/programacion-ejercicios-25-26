@@ -5,9 +5,9 @@ def entrada_teclado():
 def saca_vocales(linea: str) -> str:
     lista_vocales = []
     vocales = "aeiouáéíóú"
-    for i in linea.lower():
-        if i in vocales:
-            lista_vocales.append(i)
+    for letra in linea.lower():
+        if letra in vocales:
+            lista_vocales.append(letra)
     cadena_vocales = "".join(lista_vocales)
     return cadena_vocales
 
